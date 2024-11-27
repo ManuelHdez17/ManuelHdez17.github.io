@@ -1,0 +1,258 @@
+/* Estilos para suavidad en la pagina al recorrer por los enlaces */
+html {
+  scroll-behavior: smooth; /* Suaviza el desplazamiento */
+  scroll-padding-top: 90px !important; /* Espaciado superior para evitar que el título quede oculto */
+}
+
+
+/*Estilos para el boton y la barra de busqueda*/
+.custom-search {
+    width: 400px; /* O el ancho que desees */
+}
+.custom-search::placeholder {
+    color: #000000 !important; /* Cambia el color del placeholder a negro y fuerza su aplicación */
+  }
+
+/*Estilos para la barra de navegacion(navbar)*/
+.custom-navbar {
+    background-color: #210D41 !important; /* Fondo del navbar */
+  }
+  .custom-navbar .navbar-brand,
+  .custom-navbar .nav-link,
+  .custom-navbar .form-control,
+  .custom-navbar .btn {
+    color: #ffffff !important; /* Texto, botones y formularios en blanco */
+  }
+  .custom-navbar .btn-outline-success {
+    border-color: #ffffff; /* Borde de botones outline */
+    color: #ffffff; /* Texto del botón outline */
+  }
+  .custom-navbar .btn-secondary {
+    background-color: #ffffff !important; /* Fondo blanco de los botones secundarios */
+    color: #210d41 !important; /* Texto en color de fondo original */
+  }
+  .custom-navbar .btn-secondary:hover {
+    background-color: #dddddd !important; /* Fondo gris claro al pasar el mouse */
+  }
+
+/*Estilos para las imagenes del carrusel*/
+/* Contenedor del carrusel con margen para centrarlo */
+.custom-carrusel-container {
+    max-width: 80% !important; /* Ajusta el ancho del carrusel */
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+    position: relative;
+    overflow: hidden; /* Asegura que los elementos no sobresalgan */
+  }
+  
+  /* Propiedades de estilos para el carrusel */
+.tamanho-carrusel {
+  width: 1380px !important;
+  height: 580px;
+  margin-top: 110px;
+  margin-left: 52px;
+}
+.letra-carrusel h5 {
+  font-size: 70px;
+  font-weight: bold;
+}
+.letra-carrusel p {
+  font-size: 40px;
+}
+
+/* Estilos para el apartado de catalogos */
+.catalogoTit h1{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 60px !important;
+  font-weight: bold;
+}
+.card img {
+  object-fit: cover;
+  height: 160px;
+  margin-bottom: -15px !important;
+}
+.card-body h5 {
+  font-size: 20px !important;
+  margin-bottom: -5px !important;
+}
+.card-body p {
+  margin-bottom: -0px;
+}
+.card-body a {
+  margin-bottom: -0px !important;
+}
+
+
+
+/* Sección Conócenos */
+.about-section {
+  padding: 4rem 0;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Título principal */
+.conocenosTit h1{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 60px !important;
+  font-weight: bold;
+}
+/* Estilos del cuadro de Conócenos */
+.bg-gray {
+  background-color: #f1f1f1; /* Fondo gris claro */
+  border: 2px solid #e0e0e0; /* Borde gris */
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 1000px;
+}
+/* Estilos internos del cuadro */
+.about-section h2 {
+  color: #210D41;
+}
+.about-section h5 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #555;
+}
+.about-section p {
+  font-size: 1rem;
+  color: #333;
+}
+.about-section img {
+  max-width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
+/* Centrado del texto y botón dentro del cuadro */
+.about-section .col-lg-6.text-lg-start {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Centra el contenido horizontalmente */
+  text-align: center; /* Asegura que el texto esté centrado */
+}
+/* Botón personalizado */
+.btn-outline-custom {
+  border-color: #210D41;
+  color: #210D41;
+  padding: 10px 20px;
+  font-weight: 500;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  align-self: center; /* Centra el botón dentro de su contenedor */
+  margin-top: 20px; /* Agrega espacio superior al botón */
+}
+.btn-outline-custom:hover {
+  background-color: #210D41;
+  color: #ffffff;
+}
+
+
+/*Estilos para las tarjetas de mision y vision */
+/* Ajustar el tamaño y espaciado de las cartas */
+.about-section .about-card {
+  height: 450px; /* Aumenta la altura de las cartas */
+  max-width: 90%; /* Reduce el ancho máximo de las cartas */
+  margin: 20px auto; /* Añade separación horizontal */
+  padding: 20px; /* Añade relleno interno */
+}
+/* agrandar el titulo de la card para que resalte */
+.about-section .card-header h3 {
+  font-size: 35px;
+}
+/* Estilo para el contenido del párrafo */
+.about-section .card-body p {
+  font-size: 20px; /* Tamaño del texto */
+  text-align: justify;
+  margin: 28px; /* Ajustar el margen interno del texto */
+}
+
+
+/* Estilos para el apartado de conocenos */
+/* Personalización para la última casilla de texto */
+#producto5 {
+  height: 150px; /* Ajusta la altura para que sea más grande */
+}
+/* Centrando el botón de enviar */
+.btn-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/* propiedades css para el apartado de contacto */
+/* ajuste del formulario y botones */
+textarea::placeholder {
+  text-align: center;
+}
+/* Título principal */
+.contactoTit h1{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px !important;
+  margin-bottom: 30px;
+}
+
+
+/* propiedades para los estilos del footer */
+.custom-footer {
+  background-color: #210d41 !important; /* Color de fondo */
+  padding: 10px 0 !important; /* Reducir el padding vertical del footer */
+}
+.custom-footer a {
+  color: #ffffff !important; /* Color de los enlaces */
+  text-decoration: none !important;
+  transition: color 0.3s ease !important;
+  font-size: small !important;
+}
+.custom-footer a:hover {
+  color: #b39ddb !important; /* Color al pasar el mouse */
+}
+.custom-footer hr {
+  border-color: #ffffff !important; /* Color del separador */
+  margin: 5px 0 !important; /* Reducir el margen del separador */
+}
+.custom-footer ul {
+  margin: 0 !important; /* Eliminar márgenes en listas */
+  padding: 0 !important; /* Eliminar paddings en listas */
+  list-style: none !important; /* Quitar los bullets de las listas */
+}
+.custom-footer ul li {
+  margin-bottom: -5px !important; /* Reducir el espacio entre enlaces */
+}
+.custom-footer h6.footTit {
+  font-size: 0.8rem !important; /* Reducir el tamaño de letra de los encabezados */
+  margin-bottom: 5px !important; /* Reducir el espacio debajo del título */
+}
+.custom-footer .input-group {
+  height: 10px !important; /* Ajustar la altura del campo de texto */
+}
+.custom-footer .text-center p {
+  margin: 5px 0 !important; /* Reducir espacio en el texto de derechos reservados */
+  font-size: 0.8rem !important; /* Reducir el tamaño de letra */
+}
+.custom-footer .mt-3 {
+  margin-top: 5px !important; /* Reducir espacio superior en los iconos de redes sociales */
+}
+.form-control ::placeholder {
+  font-size: bold;
+}
+form.custom-form .form-control {
+  font-size: 12px !important; /* Cambia el tamaño del texto */
+  padding: 5px !important;    /* Ajusta el espacio interno */
+  height: 30px !important;    /* Ajusta la altura */
+}
+form.custom-form .btn {
+  font-size: 12px !important; /* Cambia el tamaño del texto del botón */
+  padding: 5px 10px !important; /* Ajusta el espacio interno */
+  height: 30px !important;    /* Ajusta la altura */
+}
+.img-icon {
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}

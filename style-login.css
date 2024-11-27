@@ -1,0 +1,29 @@
+/* Aplicar color de fondo */
+body {
+    background-color: #E5E9F2;
+  }
+
+/* Color blanco para contrastar */
+.card {
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    border-color: 210d41;
+    border: 3px solid rgba(33, 13, 65, 0.3); /* Borde tenue */
+    box-shadow: 0 0 2px rgba(33, 13, 65, 0.2); /* Sombra suave */
+  }
+
+/* Cambiar color al cuadro para recordar credenciales */
+.form-check-input {
+    width: 18px;
+    height: 18px;
+    background-color: #e3e6eb; /* Color de fondo del cuadro */
+    border: 2px solid #210d41; /* Borde del cuadro */
+    border-radius: 3px; /* Esquinas redondeadas */
+  }
+  
+  .form-check-input:checked {
+    background-color: #210d41; /* Color cuando está seleccionado */
+    border-color: #210d41;
+  }
+
+  
